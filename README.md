@@ -1,1 +1,1 @@
-## Cronometro e calculadora que funciona como uma cronometro e calculadora
+## Frontend de um site que mostra os jogos gratis na semana e possibilita alteraçõees pelo mesmo.
