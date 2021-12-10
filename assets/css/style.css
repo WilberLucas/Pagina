@@ -1,0 +1,47 @@
+body {
+  font-family: "arial";
+  font-weight: 400;
+  color: #050405;
+  background-color: rgb(255, 224, 230);
+  margin: 0;
+}
+
+
+header {
+  background-position: center;
+  color: rgb(143, 23, 73);
+}
+
+header .foreground {
+  background-color: var(--main-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  min-height: 80vh;
+}
+
+footer p {
+
+  text-align: center;
+}
+
+section {
+  max-width: 1000px;
+  padding: 0px 50px 50px 50px;
+  border-radius: 5px;
+  margin: 20px auto;
+  background-color: rgb(255, 224, 230);
+  text-align: center;
+}
+
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Cronos</title>
+    <link rel="stylesheet" href="./assets/css/style.css"> 
+</head>
+<body>
+    <body>
+        <header>
+          <div class="foreground">
+            <div class="top-container">
+              <h1>Jogos Grátis</h1>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="produtos.html">Jogos</a></li>
+                <li><a href="produtos-create.html">Novo Jogo</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      
+        <main>
+          <section>
+            <h1>Cadastrar jogos</h1>
+            <div>
+              <form>
+                <div>
+                  <label for="nome">Nome</label>
+                  <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                  <label for="imagem">Imagem</label>
+                  <input type="file" name="imagem" id="imagem">
+                </div>
+                <div>
+                  <label for="lojas">lojas</label>
+                  <select name="lojas_id" id="lojas"></select>
+                </div>
+                <div>
+                  <input type="submit">
+                </div>                       
+              </form>
+            </div>
+          </section>
+        </main>
+        
+        <footer>
+          <p>Todos os direitos não reservados.</p>
+        </footer>
+        <script src="./assets/js/produtos-create.js"></script>
+      </body>   
+</html>
